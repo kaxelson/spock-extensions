@@ -15,3 +15,13 @@ dependencies {
 	compile 'org.slf4j:slf4j-api:1.7.5'
 	compile 'org.spockframework:spock-core:0.7-groovy-2.0'
 }
+
+uploadArchives {
+	repositories {
+		mavenDeployer {
+			repository(url: 'https://api.bintray.com/maven/kaxelson/maven/net.noslexa.spock') {
+				authentication(userName: bintrayUser, password: bintrayPassword)
+			}
+		}
+	}
+}

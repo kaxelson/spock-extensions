@@ -1,4 +1,4 @@
-package axelson.spock.extensions.reporttime;
+package net.noslexa.spock.extensions.reporttime;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

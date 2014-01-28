@@ -1,4 +1,4 @@
-package axelson.spock.extensions.reporttime;
+package net.noslexa.spock.extensions.reporttime;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

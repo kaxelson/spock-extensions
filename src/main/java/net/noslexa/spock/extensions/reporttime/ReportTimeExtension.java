@@ -1,4 +1,4 @@
-package axelson.spock.extensions.reporttime;
+package net.noslexa.spock.extensions.reporttime;
 
 import org.spockframework.runtime.extension.AbstractAnnotationDrivenExtension;
 import org.spockframework.runtime.model.FeatureInfo;
